@@ -14,7 +14,7 @@ let arr_original = [];
 const imprimir = (arr) => {
     var todo = "";
     arr.forEach(item => {
-        // Genera la clase de estilo según el estado para un toque Cyberpunk
+    
         const statusClass = item.personaje.status === "Deceased" ? "status-deceased" : "status-alive";
         const ageDisplay = item.personaje.age !== null ? `<p>Edad: ${item.personaje.age}</p>` : '';
 
